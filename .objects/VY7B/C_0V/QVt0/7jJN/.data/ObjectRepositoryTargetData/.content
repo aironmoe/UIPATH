@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RNr_ZBqFBUOv-ZUf79WsHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 89, 1920, 951" FullSelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;" Guid="808a9abf-f8de-4f6b-92d1-8eaaf118c4dd" ScopeSelectorArgument="&lt;wnd app='brave.exe' cls='Chrome_WidgetWin_1' title='uipath CV Screen Scope is not valid - Google Search - Brave' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d83b53175ee2c19a78906789f78a7565.png" xmlns="">07aQ1EmsyR0CaBTSPZJiOoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

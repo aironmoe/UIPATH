@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7bSScHtUL02BTph3F0clBg" Reference="A9GZRXm970emHI7WjGUGdQ/-BjSecPp1UyMDoPFVke_rA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fakenamegenerator.com/gen-random-us-us.php" DesignTimeRectangle="619, 463, 860, 1249" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='content' parentid='details' tag='DIV' /&gt;" Guid="c97019ca-a84e-4448-9e7b-003593739990" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0e664d7e671c96a7f550e3d4d8547d4d.png" xmlns="">0RWPGfDoW7UymwhZ3kfksoA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TakeScreenshot</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

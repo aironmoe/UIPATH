@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New Tab",
+  "Type": "Element",
+  "Id": "XPPE-GGZzkWVlD9VybOMDw",
+  "Reference": "A9GZRXm970emHI7WjGUGdQ/XPPE-GGZzkWVlD9VybOMDw",
+  "ParentRef": "A9GZRXm970emHI7WjGUGdQ/G11TlZMfo0OIZ2lkod0glA",
+  "Created": "2025-09-12T00:35:19.0012062Z",
+  "Updated": "2025-09-12T00:35:19.0012062Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

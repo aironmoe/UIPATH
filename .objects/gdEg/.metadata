@@ -1,0 +1,12 @@
+﻿{
+  "Name": "explorer.exe",
+  "Type": "App",
+  "Id": "gdEgd4OruESOupCaTX_gog",
+  "Reference": "A9GZRXm970emHI7WjGUGdQ/gdEgd4OruESOupCaTX_gog",
+  "Created": "2025-11-30T23:31:39.8142947Z",
+  "Updated": "2025-11-30T23:31:39.8142947Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

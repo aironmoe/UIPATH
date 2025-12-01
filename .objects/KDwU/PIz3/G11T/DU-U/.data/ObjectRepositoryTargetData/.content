@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SAN45Xq4Z0O3p67Q0Dk7yQ" Reference="A9GZRXm970emHI7WjGUGdQ/DU-UXlSq9UiwLjNZeH-xZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/689c8072-1fc8-8331-a8f1-0fd5611e59d1" DesignTimeRectangle="165, 59, 1437, 24" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='UiPath syntax issue - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="27461f59-10dc-48ce-b80c-ccc7305b3f10" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath syntax issue - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2eb3f5c16a0002931de719289df75206.png" xmlns="">0XnBc5Evp60yKFzND5iTZEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardTrigger</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

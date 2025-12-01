@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X4N-oLgx1UiJpA7smqeFlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9edc8e63-d605-4cc0-b770-0c0a2f80d054" CvElementArea="202, 285, 124, 27" CvType="InputBox" DesignTimeRectangle="204, 286, 120, 24" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;ctrl automationid='PasswordDialog.Password' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="631889a1-7e63-4af7-a65d-33faa5465d83" ScopeSelectorArgument="&lt;wnd app='mangoclient.exe' cls='HwndWrapper*' title='Infor Smart Office' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9edc8e63-d605-4cc0-b770-0c0a2f80d054" CvTextArea="73, 218, 201, 31" CvTextArgument="Smart Office" CvType="Text" DesignTimeRectangle="74, 214, 199, 42" ElementType="Text" FuzzySelectorArgument="&lt;ctrl automationid='SplashControl.ProductName' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Smart Office' /&gt;" Guid="c818d0ad-7116-436b-87e7-aef07eba4bac" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="558d1d5cf17e4a9db2e6e98d66a7c912.png" xmlns="">0Iatn5M9bkUWkX26ETPeCBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

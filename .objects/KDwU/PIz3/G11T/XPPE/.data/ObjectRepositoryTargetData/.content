@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tQLPAKVYd02M0t3sxh4nGg" Reference="A9GZRXm970emHI7WjGUGdQ/XPPE-GGZzkWVlD9VybOMDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/689c8072-1fc8-8331-a8f1-0fd5611e59d1" CVScreenId="8899a673-f43d-4382-aef3-e97706cf2979" CvElementArea="282, 9, 240, 40" CvTextArea="317, 22, 47, 12" CvTextArgument="New Tab" CvType="Button" DesignTimeRectangle="279, 10, 245, 40" ElementType="TabPage" FullSelectorArgument="&lt;ctrl name='UiPath syntax issue - Google Chrome' role='pane' /&gt;&lt;ctrl name='New Tab' role='page tab' /&gt;" Guid="0c2d5ad7-2bc7-462f-8d8a-eae4a41e24b2" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath syntax issue - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8899a673-f43d-4382-aef3-e97706cf2979" CvElementArea="282, 9, 240, 40" CvTextArea="317, 22, 47, 12" CvTextArgument="New Tab" CvType="Button" DesignTimeRectangle="274, 8, 256, 41" ElementType="TabPage" FuzzySelectorArgument="&lt;ctrl name='UiPath syntax issue - Google Chrome' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='New Tab' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='New Tab' /&gt;" Guid="0f0fda3c-6507-4526-9a00-f8ee21dad66b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="13037b29f4da07ebb84d01c5f7b3bde1.png" xmlns="">0aHeVcI20xkKr5C8XBVI9IQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

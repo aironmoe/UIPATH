@@ -1,0 +1,13 @@
+﻿{
+  "Name": "UiPath Browser Automat…",
+  "Type": "Element",
+  "Id": "kxZL3PpKYE-3Yyu9LCcZng",
+  "Reference": "A9GZRXm970emHI7WjGUGdQ/kxZL3PpKYE-3Yyu9LCcZng",
+  "ParentRef": "A9GZRXm970emHI7WjGUGdQ/e3k0pDc2xUCrmjNT7Mp0iw",
+  "Created": "2025-09-15T00:04:37.9157732Z",
+  "Updated": "2025-09-15T00:04:37.9157732Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

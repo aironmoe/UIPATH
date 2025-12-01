@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h92_-FujSkKPpcpa2O2oJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/68c2059a-2e58-8321-a555-b89c2d20c048" CVScreenId="421c14bf-fd06-4c06-9247-c830d748a888" CvElementArea="423, 99, 79, 42" CvTextArea="22, 114, 460, 13" CvTextArgument="&quot;UiPath Browser Automation 24.10&quot; started debugging this browser Cancel" CvType="Button" DesignTimeRectangle="8, 95, 1920, 52" FullSelectorArgument="&lt;ctrl name='Primary skill explanation - Google Chrome' role='pane' /&gt;&lt;ctrl name='Infobar Container' role='grouping' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="dee8356d-dca8-42d4-a9af-2f6b0a319559" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Primary skill explanation - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8bb24c3748509d08be5e869f0c883e1e.png" xmlns="">0_JISfGvsPUW7qbOPsFZA3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

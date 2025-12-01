@@ -1,0 +1,12 @@
+﻿{
+  "Name": "snagit32.exe",
+  "Type": "App",
+  "Id": "KDwUzmwASE2FiP6By8T29A",
+  "Reference": "A9GZRXm970emHI7WjGUGdQ/KDwUzmwASE2FiP6By8T29A",
+  "Created": "2025-09-12T00:34:48.4710899Z",
+  "Updated": "2025-09-12T00:34:48.4710899Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

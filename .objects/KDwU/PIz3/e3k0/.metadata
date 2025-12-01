@@ -1,0 +1,13 @@
+﻿{
+  "Name": "snagit32.exe(1)",
+  "Type": "Screen",
+  "Id": "e3k0pDc2xUCrmjNT7Mp0iw",
+  "Reference": "A9GZRXm970emHI7WjGUGdQ/e3k0pDc2xUCrmjNT7Mp0iw",
+  "ParentRef": "A9GZRXm970emHI7WjGUGdQ/PIz3zGM1CUST6SYIJtlKAg",
+  "Created": "2025-09-15T00:04:35.8598562Z",
+  "Updated": "2025-09-15T00:04:35.8598562Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

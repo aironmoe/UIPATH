@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7FmgsRlkXUCxyrQJmiiQOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/689c8072-1fc8-8331-a8f1-0fd5611e59d1" CVScreenId="16946332-c1d0-4acd-9b34-5e17e391120e" CvElementArea="122, 51, 1516, 38" CvType="InputBox" DesignTimeRectangle="165, 59, 1437, 24" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='UiPath syntax issue - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="34fa7aac-82c0-4b75-8567-4b38f5dd5c0e" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath syntax issue - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="236896ad91c8406d4e046c9d1d25ed8a.png" xmlns="">0O2L6qJ6g20So__yjZQoW4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
