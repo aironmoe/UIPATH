@@ -161,21 +161,20 @@
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
       <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1364,1768" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1082,1910" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="ALL" sap:VirtualizedContainerService.HintSize="522,1745" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence DisplayName="ALL" sap:VirtualizedContainerService.HintSize="522,1887" sap2010:WorkflowViewState.IdRef="Sequence_8">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="Path">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">C:\Users\louis\OneDrive\Desktop\Uipath</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="C:\Users\louis\OneDrive\Desktop\Uipath" Name="Path" />
         <Variable x:TypeArguments="x:String" Name="strName" />
         <Variable x:TypeArguments="x:String" Name="strAddress" />
         <Variable x:TypeArguments="sd2:DataTable" Name="table" />
@@ -188,14 +187,15 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:BuildDataTable DataTable="[table]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="488,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Name&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Address&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
-      <ui:ForEach x:TypeArguments="x:Int32" CurrentIndex="[index]" DisplayName="For Each currentNumber" sap:VirtualizedContainerService.HintSize="488,1570" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Enumerable.Range(1, 100)]">
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="488,118" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Start&quot;]" />
+      <ui:BuildDataTable DataTable="[table]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="488,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Name&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Address&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+      <ui:ForEach x:TypeArguments="x:Int32" CurrentIndex="[index]" DisplayName="For Each currentNumber" sap:VirtualizedContainerService.HintSize="488,1594" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Enumerable.Range(1, 100)]">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="x:Int32">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Int32" Name="currentNumber" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,1448" sap2010:WorkflowViewState.IdRef="Sequence_20">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,1472" sap2010:WorkflowViewState.IdRef="Sequence_20">
               <Sequence.Variables>
                 <Variable x:TypeArguments="ui:Image" Name="image" />
               </Sequence.Variables>
@@ -204,19 +204,19 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Generate a Random Name - Fake Name Gen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1388" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="9c68d7d8-2798-4369-adeb-edf1a95f8275" Version="V2">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Generate a Random Name - Fake Name Gen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1408" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="9c68d7d8-2798-4369-adeb-edf1a95f8275" Version="V2">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1194" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1210" sap2010:WorkflowViewState.IdRef="Sequence_18">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Generate'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9c68d7d8-2798-4369-adeb-edf1a95f8275" Version="V5">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Generate'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9c68d7d8-2798-4369-adeb-edf1a95f8275" Version="V5">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="fakenamegenerator.com" CVScreenId="b907f419-3e4e-473c-b5c0-71d8371dbb03" ContentHash="t7IUPSyBIEWkAQaZK-vAwQ" CvElementArea="692, 457, 73, 26" CvTextArea="698, 463, 61, 12" CvTextArgument="Generate" CvType="Button" DesignTimeRectangle="693, 458, 71, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='genbtn' tag='INPUT' /&gt;" Guid="1298ae25-8457-47e4-b813-c41faca63c68" InformativeScreenshot="166b34d472d235490e74c15919a26acc.png" Reference="A9GZRXm970emHI7WjGUGdQ/-D4yzeHW-0KqmgfvOIjYVA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                         </uix:NClick.Target>
@@ -237,7 +237,7 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </uix:NClick>
-                      <uix:NGetText DisplayName="GET NAME'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="9c68d7d8-2798-4369-adeb-edf1a95f8275" TextString="[strName]" Version="V5">
+                      <uix:NGetText DisplayName="GET NAME'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="9c68d7d8-2798-4369-adeb-edf1a95f8275" TextString="[strName]" Version="V5">
                         <uix:NGetText.Target>
                           <uix:TargetAnchorable BrowserURL="fakenamegenerator.com/gen-random-us-us.php" CVScreenId="6a298dbe-30a3-428b-bce4-aab1908625e0" ContentHash="K0juUvhy7UCYZJqItugOmg" CvType="AnyWordGroup" DesignTimeRectangle="789, 525, 540, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="4c074d35-5851-4a6a-8c15-eee5493f770f" InformativeScreenshot="8c6038d8fff60ad51b0a0a68650eee57.png" Reference="A9GZRXm970emHI7WjGUGdQ/70COGNPJ9Ey-kCIEaKJwcQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                         </uix:NGetText.Target>
@@ -248,7 +248,7 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </uix:NGetText>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[strName.ToString]">
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[strName.ToString]">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -293,7 +293,7 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </Assign>
-                      <ui:SaveImage DisplayName="Save Image" FileName="[Path &amp; &quot;\screenshot\&quot; &amp; index.ToString() &amp; &quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="416,158" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[image]">
+                      <ui:SaveImage DisplayName="Save Image" FileName="[Path &amp; &quot;\screenshot\&quot; &amp; index.ToString() &amp; &quot;- &quot; &amp; Now.ToString(&quot;yyyyMMdd&quot;) &amp; &quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="416,158" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[image]">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
